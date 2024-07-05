@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(216, 85%, 49%);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: hwb(222 80% 8% / 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.input-section {
+    padding: 20px;
+    border-right: 1px solid #e6e6e6;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-section textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#encryptBtn {
+    background-color: #007bff;
+    color: white;
+}
+
+#decryptBtn {
+    background-color: #6c757d;
+    color: white;
+}
+
+.output-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.output-section img {
+    max-width: 100px;
+    margin-top: 20px;
+}
